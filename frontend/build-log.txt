@@ -1,0 +1,14 @@
+
+> frontend@0.0.0 build
+> tsc -b && vite build
+
+src/components/Dashboard.tsx(3,10): error TS1484: 'Order' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/Dashboard.tsx(3,17): error TS1484: 'PaymentEntry' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/OrderDetails.tsx(4,10): error TS1484: 'Order' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/OrderDetails.tsx(4,17): error TS1484: 'PaymentEntry' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/OrderFormPage.tsx(4,10): error TS1484: 'Order' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/OrderFormPage.tsx(4,17): error TS1484: 'PaymentEntry' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/Orders.tsx(4,10): error TS1484: 'Order' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/Orders.tsx(4,17): error TS1484: 'PaymentEntry' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/store.ts(1,10): error TS1484: 'Order' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/store.ts(1,17): error TS1484: 'PaymentEntry' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
