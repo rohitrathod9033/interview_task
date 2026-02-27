@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #ffffff;
+    color: #111827;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+
+  /* Removed glass-panel completely for simple white UI */
+  .simple-panel {
+    @apply bg-white border border-gray-200 rounded-lg;
+  }
+}
